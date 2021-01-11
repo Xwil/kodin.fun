@@ -18,7 +18,8 @@ module.exports = {
 				{ label: '浏览器' },
 				{ label: '网络' },
 				{ label: '工程化' },
-
+				{ label: '读书笔记' },
+				{ label: '好文推荐', to: 'good-articles' },
 				{ to: 'blog', label: 'Blog', position: 'right' },
 				{
 					href: 'https://github.com/facebook/docusaurus',
@@ -28,9 +29,12 @@ module.exports = {
 			],
 		},
 		footer: {
-			style: 'dark',
+			style: 'light',
 			links: [],
 			copyright: `Copyright © ${new Date().getFullYear()} cuvii. Built with Docusaurus.`,
+		},
+		prism: {
+			theme: require('prism-react-renderer/themes/dracula'),
 		},
 	},
 	presets: [
@@ -54,4 +58,5 @@ module.exports = {
 			},
 		],
 	],
+	themes: ['@docusaurus/theme-live-codeblock'],
 };

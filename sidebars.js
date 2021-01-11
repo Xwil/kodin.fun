@@ -3,7 +3,7 @@ module.exports = {
 		{
 			type: 'doc',
 
-			id: 'htmlcss/overview',
+			id: 'htmlcss/index',
 		},
 		{ type: 'category', label: 'HTML', items: ['htmlcss/html/iframe'] },
 	],
