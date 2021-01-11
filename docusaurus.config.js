@@ -19,7 +19,6 @@ module.exports = {
 				{ label: '网络' },
 				{ label: '工程化' },
 				{ label: '读书笔记' },
-				{ label: '好文推荐', to: 'good-articles' },
 				{ to: 'blog', label: 'Blog', position: 'right' },
 				{
 					href: 'https://github.com/facebook/docusaurus',
