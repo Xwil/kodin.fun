@@ -1,22 +1,18 @@
 module.exports = {
-	title: 'My Site',
-	tagline: 'The tagline of my site',
-	url: 'https://your-docusaurus-test-site.com',
+	title: 'cuvii的游乐场',
+	// tagline: 'The tagline of my site',
+	url: 'https://kodin.fun',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 	favicon: 'img/favicon.ico',
-	organizationName: 'facebook', // Usually your GitHub org/user name.
-	projectName: 'docusaurus', // Usually your repo name.
+	organizationName: 'cuvii', // Usually your GitHub org/user name.
+	projectName: 'kodin.fun', // Usually your repo name.
 	themeConfig: {
 		navbar: {
-			title: 'My Site',
-			logo: {
-				alt: 'My Site Logo',
-				src: 'img/logo.svg',
-			},
+			title: 'cuvii的游乐场',
 			items: [
-				{ label: 'HTML/CSS' },
+				{ label: 'HTML/CSS', to: 'htmlcss' },
 				{ label: 'JavaScript', to: 'javascript' },
 				{ label: '框架' },
 				{ label: '浏览器' },
@@ -45,14 +41,12 @@ module.exports = {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo.
 					routeBasePath: '/',
-					editUrl:
-						'https://github.com/facebook/docusaurus/edit/master/website/',
+					editUrl: 'https://github.com/Xwil/kodin.fun/edit/master',
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
-					editUrl:
-						'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+					editUrl: 'https://github.com/Xwil/kodin.fun/edit/master',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
