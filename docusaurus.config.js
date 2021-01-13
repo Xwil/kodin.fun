@@ -9,6 +9,7 @@ module.exports = {
 	organizationName: 'cuvii', // Usually your GitHub org/user name.
 	projectName: 'kodin.fun', // Usually your repo name.
 	themeConfig: {
+		hideableSidebar: true,
 		navbar: {
 			title: 'cuvii的游乐场',
 			items: [
@@ -45,6 +46,8 @@ module.exports = {
 					// Please change this to your repo.
 					routeBasePath: '/',
 					editUrl: 'https://github.com/Xwil/kodin.fun/edit/master',
+					showLastUpdateAuthor: true,
+					showLastUpdateTime: true,
 				},
 				blog: {
 					showReadingTime: true,
@@ -53,6 +56,12 @@ module.exports = {
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
+				},
+				sitemap: {
+					cacheTime: 600 * 1000, // 600 sec - cache purge period
+					changefreq: 'weekly',
+					priority: 0.5,
+					trailingSlash: false,
 				},
 			},
 		],

@@ -7,44 +7,41 @@ hide_title: true
 
 ## HTML
 
--   [ ] 语义化
+-   [x] [语义化](html/semantic.md)
+-   [x] [`meta`](html/meta.md)
+-   [x] [`doctype`](html/doctype.md)
 -   [ ] [`iframe`](html/iframe.md)
--   [ ] `doctype`
--   [ ] `meta`
-
-
 
 ## CSS
 
 ### 基础
 
--   [ ] 选择器
-    -   选择器优先级
--   [ ] `px`/`em`/`rem`/`vw`/`vh`
--   [ ] 浮动
--   [ ] `display`
--   [ ] BFC
--   [ ] 盒模型
--   [ ] `Flex`
--   [ ] `z-index`
--   [ ] 伪类和伪元素
--   [ ] `line-height`
--   [ ] 图片自适应
--   [ ] 单行省略/多行省略
--   [ ] 形状
+-   [ ] [选择器](css/selectors.md)
+-   [ ] [`px`/`em`/`rem`/`vw`/`vh`](css/units.md)
+-   [ ] [浮动](css/float.md)
+-   [ ] [`display`](css/display.md)
+-   [ ] [BFC](css/bfc.md)
+-   [ ] [盒模型](css/box-model.md)
+-   [ ] [`Flex`](css/flex.md)
+-   [ ] [`z-index`](css/z-index.md)
+-   [ ] [伪类和伪元素](css/pseudo.md)
+-   [ ] [`line-height`](css/line-height.md)
+-   [ ] [图片自适应](css/img.md)
+-   [ ] [单行省略/多行省略](css/ellipsis.md)
+-   [ ] [形状](css/shapes.md)
 
 -   [ ] 移动端
 
-    -   [ ] 移动端布局方案
-    -   [ ] `1px`
+    -   [ ] [移动端布局方案](css/mobile-layout.md)
+    -   [ ] [`1px`](css/1px.md)
 
--   [ ] BEM 命名法
--   [ ] 预处理器
+-   [ ] [BEM 命名法](css/bem.md)
+-   [ ] [预处理器](css/postcss.md)
 
 ### 布局
 
--   [ ] 水平居中
--   [ ] 垂直居中
--   [ ] 水平垂直居中
--   [ ] 两列布局
--   [ ] 三列布局
+-   [ ] [水平居中](css/v-center.md)
+-   [ ] [垂直居中](css/h-center.md)
+-   [ ] [水平垂直居中](css/vh-center.md)
+-   [ ] [两列布局](css/layouts.md#两列布局)
+-   [ ] [三列布局](css/layouts.md#三列布局)
