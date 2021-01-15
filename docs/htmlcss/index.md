@@ -16,13 +16,13 @@ hide_title: true
 
 ### 基础
 
--   [ ] [选择器](css/selectors.md)
--   [ ] [`px`/`em`/`rem`/`vw`/`vh`](css/units.md)
+-   [x] [选择器](css/selectors.md)
+-   [x] [`px`/`em`/`rem`/`vw`/`vh`](css/units.md)
 -   [ ] [浮动](css/float.md)
--   [ ] [`display`](css/display.md)
--   [ ] [BFC](css/bfc.md)
--   [ ] [盒模型](css/box-model.md)
--   [ ] [`Flex`](css/flex.md)
+-   [x] [`display`](css/display.md)
+-   [x] [BFC](css/bfc.md)
+-   [x] [盒模型](css/box-model.md)
+-   [ ] [`flex`](css/flex.md)
 -   [ ] [`z-index`](css/z-index.md)
 -   [ ] [伪类和伪元素](css/pseudo.md)
 -   [ ] [`line-height`](css/line-height.md)
@@ -33,7 +33,7 @@ hide_title: true
 -   [ ] 移动端
 
     -   [ ] [移动端布局方案](css/mobile-layout.md)
-    -   [ ] [`1px`](css/1px.md)
+    -   [x] [`1px`](css/1px.md)
 
 -   [ ] [BEM 命名法](css/bem.md)
 -   [ ] [预处理器](css/postcss.md)

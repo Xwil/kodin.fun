@@ -22,7 +22,7 @@ module.exports = {
 				{ label: '读书笔记' },
 				{ to: 'blog', label: 'Blog', position: 'right' },
 				{
-					href: 'https://github.com/facebook/docusaurus',
+					href: 'https://github.com/Xwil/kodin.fun',
 					label: 'GitHub',
 					position: 'right',
 				},
