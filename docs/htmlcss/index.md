@@ -40,8 +40,8 @@ hide_title: true
 
 ### 布局
 
--   [ ] [水平居中](css/v-center.md)
--   [ ] [垂直居中](css/h-center.md)
+-   [ ] [水平居中](css/h-center.md)
+-   [ ] [垂直居中](css/v-center.md)
 -   [ ] [水平垂直居中](css/vh-center.md)
 -   [ ] [两列布局](css/layouts.md#两列布局)
 -   [ ] [三列布局](css/layouts.md#三列布局)
