@@ -18,6 +18,7 @@
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "react": "^16.8.4",
+    "react-codepen-embed": "^1.0.2",
     "react-dom": "^16.8.4"
   },
   "browserslist": {

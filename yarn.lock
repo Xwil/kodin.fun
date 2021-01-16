@@ -8247,6 +8247,13 @@ react-base16-styling@^0.6.0:
     lodash.flow "^3.3.0"
     pure-color "^1.2.0"
 
+react-codepen-embed@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/react-codepen-embed/download/react-codepen-embed-1.0.2.tgz#3c112aeeb030c26ea42991195e353b50bbc9a789"
+  integrity sha1-PBEq7rAwwm6kKZEZXjU7ULvJp4k=
+  dependencies:
+    prop-types "^15.5.0"
+
 react-dev-utils@^10.2.1:
   version "10.2.1"
   resolved "https://registry.npm.taobao.org/react-dev-utils/download/react-dev-utils-10.2.1.tgz?cache=0&sync_timestamp=1606109654281&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-dev-utils%2Fdownload%2Freact-dev-utils-10.2.1.tgz#f6de325ae25fa4d546d09df4bb1befdc6dd19c19"
