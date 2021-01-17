@@ -19,7 +19,7 @@ module.exports = {
 				{ label: '浏览器' },
 				{ label: '网络' },
 				{ label: '工程化' },
-				{ label: '读书笔记' },
+				{ label: '读书笔记', to: 'books' },
 				{ to: 'blog', label: 'Blog', position: 'right' },
 				{
 					href: 'https://github.com/Xwil/kodin.fun',

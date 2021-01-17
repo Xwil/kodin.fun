@@ -4,6 +4,13 @@ title: 水平居中
 
 import Codepen from "react-codepen-embed";
 
+:::info 总结
+1. text-align: center
+2. margin: 0 auth
+3. position
+4. flex
+:::
+
 
 ## `text-align: center`
 
@@ -32,6 +39,7 @@ text-align:center 只对 inline 和 inline-block 元素有效。
 ## `margin`
 
 借助margin，可以实现块级元素在父元素中的水平居中效果。
+<Codepen hash='gOwZGpy' user='cuvii' height='400'/>
 
 
 以上代码中，我们对行内元素，块级元素，行内块元素都设置了`margin: "0 auto"`，只有块级元素实现了水平居中。

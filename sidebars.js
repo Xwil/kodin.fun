@@ -2,7 +2,6 @@ module.exports = {
 	htmlcss: [
 		{
 			type: 'doc',
-
 			id: 'htmlcss/index',
 		},
 		{ type: 'doc', id: 'htmlcss/resources' },
@@ -14,6 +13,20 @@ module.exports = {
 				'htmlcss/html/meta',
 				'htmlcss/html/doctype',
 				'htmlcss/html/iframe',
+				{
+					type: 'category',
+					label: '面试题',
+					items: [
+						'htmlcss/html/questions/1',
+						'htmlcss/html/questions/2',
+						'htmlcss/html/questions/3',
+						'htmlcss/html/questions/4',
+						'htmlcss/html/questions/5',
+						'htmlcss/html/questions/6',
+						'htmlcss/html/questions/7',
+						'htmlcss/html/questions/8',
+					],
+				},
 			],
 		},
 		{
@@ -41,12 +54,44 @@ module.exports = {
 				'htmlcss/css/h-center',
 				'htmlcss/css/vh-center',
 				'htmlcss/css/layouts',
+				{
+					type: 'category',
+					label: '面试题',
+					items: [
+						'htmlcss/css/questions/1',
+						'htmlcss/css/questions/2',
+						'htmlcss/css/questions/3',
+						'htmlcss/css/questions/4',
+						'htmlcss/css/questions/5',
+						'htmlcss/css/questions/6',
+						'htmlcss/css/questions/7',
+						'htmlcss/css/questions/8',
+						'htmlcss/css/questions/9',
+						'htmlcss/css/questions/10',
+						'htmlcss/css/questions/11',
+						'htmlcss/css/questions/12',
+					],
+				},
 			],
+		},
+	],
+	javascript: [
+		{
+			type: 'doc',
+			id: 'javascript/index',
 		},
 		{
 			type: 'category',
-			label: '面试题',
-			items: ['htmlcss/questions/1'],
+			label: '基础',
+			items: ['javascript/part1/types'],
+		},
+	],
+	books: [
+		{ type: 'doc', id: 'books/index' },
+		{
+			type: 'category',
+			label: 'CSS',
+			items: ['books/css/1'],
 		},
 	],
 };
