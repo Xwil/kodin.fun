@@ -155,11 +155,16 @@ Object.prototype.toString.call(window) ; //[object global] window 是全局对�
 
 ## 4. null和undefined
 
+- `undefined`表示一个声明了一个变量但是还没有赋值。
 
+- `null`则是一个值，表示为空。
+- `null`和`undefined`都是falsy值。
+- `null !== undefined`但是`null == undefined`。
 
 ## 参考
 
 - [判断JS数据类型的四种方法](https://www.cnblogs.com/onepixel/p/5126046.html)
+- [JavaScript — Null vs. Undefined](https://codeburst.io/javascript-null-vs-undefined-20f955215a2)
 
 
 

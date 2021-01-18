@@ -6,7 +6,7 @@ hide_title: true
 
 ## 基础
 
--   [ ] 类型
+-   [x] [类型](part1/types.md)
 -   [ ] var/let/const
 -   [ ] Promise
 -   [ ] Async/Await
