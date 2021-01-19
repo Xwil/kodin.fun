@@ -6,14 +6,14 @@ hide_title: true
 
 ## 基础
 
--   [x] [类型](part1/types.md)
--   [ ] var/let/const
--   [ ] Promise
--   [ ] Async/Await
--   [ ] Generator
+-   [x] [类型](types.md)
+-   [x] [提升](hoisting.md)
+-   [x] [Promise](promises.md)
+-   [x] [Async/Await/Generator](asyncawait.md)
 -   [ ] Proxy
 -   [ ] 继承
 -   [ ] 函数
+-   [ ] [HOC](HOC.md)
 
 ## DOM & BOM
 
@@ -21,11 +21,11 @@ hide_title: true
 
 ## 运行机制
 
--   [ ] 事件循环
--   [ ] 模块化
--   [ ] 执行上下文
--   [ ] 垃圾回收
--   [ ] 闭包
+-   [ ] [闭包](closures.md)
+-   [ ] [执行上下文](executioncontext.md)
+-   [ ] [事件循环](eventloop.md)
+-   [ ] [模块化](modules.md)
+-   [ ] [垃圾回收](gc.md)
 
 ## Node.js
 
@@ -85,10 +85,10 @@ hide_title: true
 - [ ] [How JavaScript works: memory management + how to handle 4 common memory leaks](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)
 - [ ] [How JavaScript works: Event loop and the rise of Async programming + 5 ways to better coding with async/await](https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)
 - [ ] [How JavaScript works: The building blocks of Web Workers + 5 cases when you should use them](https://blog.sessionstack.com/how-javascript-works-the-building-blocks-of-web-workers-5-cases-when-you-should-use-them-a547c0757f6a)
-- [ ] [How to escape async/await hell](https://www.freecodecamp.org/news/avoiding-the-async-await-hell-c77a0fb71c4c/)
+- [x] [How to escape async/await hell](https://www.freecodecamp.org/news/avoiding-the-async-await-hell-c77a0fb71c4c/)
 - [ ] [The Node.js Event Loop, Timers, and `process.nextTick()`](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
 - [ ] [从event loop规范探究javaScript异步及浏览器更新渲染时机](https://github.com/aooy/blog/issues/5)
-- [ ] [Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
+- [x] [Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
 - [ ] [面试完50个人后我写下这篇总结](https://juejin.cn/post/6844904019165446158)
 - [ ] [web前端面试总结](https://juejin.cn/post/6844903976693940231)
 - [ ] [社招中级前端笔试面试题总结](https://juejin.cn/post/6844903605107965960)

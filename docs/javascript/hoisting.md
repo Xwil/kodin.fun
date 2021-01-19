@@ -1,14 +1,8 @@
 ---
-slug: hoisting
-title: 变量提升
-author: cuvii
-tags: [JavaScript, 前端]
+title: 提升
 ---
 
-
-
-
-JavaScript引擎在运行代码之前，会先编译代码。在编译过程中会扫描函数和变量声明，并添加到内存中。
+javaScript引擎在运行代码之前，会先编译代码。在编译过程中会扫描函数和变量声明，并添加到内存中。
 
 内存中用于存储这些数据的区域叫做**词法环境（Lexical Environment）**。所以，当真正运行代码时，就可以提前访问或调用一些函数和变量了。
 

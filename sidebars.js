@@ -83,7 +83,7 @@ module.exports = {
 		{
 			type: 'category',
 			label: '基础',
-			items: ['javascript/part1/types'],
+			items: ['javascript/types', 'javascript/hoisting'],
 		},
 	],
 	books: [
